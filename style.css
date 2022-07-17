@@ -1,0 +1,137 @@
+body {
+  background-color: white;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#logo {
+  width: 5rem;
+  border-radius: 0;
+  padding: 1rem;
+}
+
+#titreLogo {
+  padding-left: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+  border-radius: 1rem;
+}
+
+#monCompte {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: black;
+  text-shadow: 1px 1px 2px black;
+}
+
+.titreshadow {
+  text-shadow: 1px 1px 2px white;
+}
+
+h1 {
+  text-align: center;
+  text-justify: auto;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+section {
+  background-color: black;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+
+}
+
+img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+fieldset {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+table {
+  /* centrer la table */
+  margin: auto;
+}
+
+td {
+  /* centrer les element de tableau */
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
+}
+
+/*pour mettre a droit les differant façon d'acces*/
+.titracces {
+  text-align: end;
+}
+
+.sansBorder {
+  border: none;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*valid focus invalid*/
+
+.inputInfos input:invalid {
+  border: 3px solid red;
+}
+
+.inputInfos input:valid {
+  border: 3px solid green;
+}
+
+.inputInfos input:focus {
+  border: 3px solid blue;
+}
+
+/* div de Boutons */
+#btn {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.btnForm {
+  margin: 1rem;
+  width: 5rem;
+  height: 2rem;
+  color: white;
+  background-color: gray;
+  border-radius: 0.5rem;
+  /* curso pour mettre une main sur le selecteur input*/
+  cursor: pointer;
+}
+
+#btnValider:hover {
+  border: 4px solid green;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+  border-radius: 1rem;
+}
